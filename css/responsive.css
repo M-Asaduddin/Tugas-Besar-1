@@ -1,0 +1,100 @@
+@media only screen and (max-width : 750px){
+    .menu{
+        display: none;
+    }
+
+    h1{
+        font-size:3em;
+    }
+    h2, h3, h4{
+        font-size: 2em;
+    }
+    p, .text, a{
+        font-size: 1.6em;
+    }
+
+    html,body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .welcome{
+        padding: 25% 10%;
+    }
+
+    .nav{
+        padding: 5% 1%;
+    }
+
+    .navbar{
+        display: block;
+    }
+
+    .intro{
+        padding: 25% 2%;
+        letter-spacing: 0pt;
+        margin: 0px;
+    }
+    
+    .content{
+        padding: 10% 0px;
+    }
+    
+    .section-menu{
+        flex-direction: column;
+        text-align: center;
+        margin: 10% 0%;
+    }
+    
+    .section, .section-menu{
+        padding: 1%;
+        margin: 1% 0px;
+        margin-bottom:20%;
+    }
+
+    .section-menu img{
+        width: 70%;
+        height: 70%;
+        margin: 3% auto;
+    }
+
+    .btn-section{
+        padding: 5% 10%;
+        font-size: 20pt;
+    }
+
+    .card-item, .section-menu{
+        margin: 10% 5%;
+    }
+
+    .card-item img{
+        width: 90%;
+        height: 90%;
+    }
+
+    .photo{
+        width: 75%;
+        height: 75%;
+        margin:3% auto;
+    }
+
+    .links{
+        margin: 10% 1%;
+    }
+
+    .input, textarea{
+        font-size: 20pt;
+        width: 100%;
+        margin: 5% 1%;
+    }
+
+    .footer, .cards{
+        flex-direction: column;
+        padding: 20% 1%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
+    
+}

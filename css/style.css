@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0px;
+    font-family: 'Vesper Libre', serif;
+}
+
+li{
+    list-style: none;
+    font-family: 'Vesper Libre', serif;
+    font-size: 14pt;
+}
+
+a{
+    text-decoration: none;
+    transition-duration: .5s;
+    opacity: 0.7;
+}
+
+table{
+    text-align: left;
+}
+
+a:hover{
+    opacity: 1;
+}
+
+@keyframes fly-in {
+    from {transform: translate(0px, 500px);opacity: 0;}
+    to{transform: translate(0px, 0px);opacity: 1;}
+}
+
+h1, h2, h3, h4{
+    font-family: 'Alice', serif;
+}
+
+.welcome{
+    padding:10%;
+    padding-top: 0px;
+    background: linear-gradient(to bottom, white 0%, #eeeeee 100%);
+}
+
+.welcome h1{
+    animation-name: fly-in;
+    animation-duration: 1s;
+    margin-top: -10px;
+}
+
+.nav{
+    padding-left: 2%;
+    z-index: 4;
+    background-color: #eeeeee;
+    position: sticky;
+    width: 100%;
+    top:0%;
+    box-shadow: 0px 5px 3px #0000004f;
+    display: flex;
+}
+
+.navbar{
+    width: 95%;
+    position: fixed;
+    top: 88%;
+    left: 3%;
+    background-color: white;
+    box-shadow: 0px -5px 3px #0000004f;
+    border-radius: 10px;
+    padding-top: 5%;
+    display: none;
+    animation-name: fly-in;
+    animation-duration: 1s;
+}
+
+.home{
+    transform: scale(1.8);
+}
+
+.active{
+    background-color: #2a2a2a;
+}
+
+.navbar img{
+    width: 13%;
+    margin: 3%;
+}
+
+.menu{
+    margin: 0px;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav a{
+    padding: 15%;
+    color:#101531;
+}
+
+.menu p{
+    margin: 0px;
+    padding: 15%;
+    color:#2a2a2a;
+    background-color: #fdeb5e;
+}
+
+.nav a:hover{
+    color: #fdeb5e;
+    background-color: #5c5c5c;
+}
+
+.intro{
+    z-index: 1;
+    letter-spacing: 1pt;
+    word-spacing: 2pt;
+    color: #312c10;
+    padding:10%;
+    padding-bottom: 3%;
+}
+
+.text{
+    font-size: 14pt;
+}
+
+.content{
+    padding: 1%;
+    background: linear-gradient(to bottom, #e4e8e9 15%, #fdeb5e 120%);
+}
+
+.section{
+    color:#312210;
+    padding:5%;
+    font-size: 14pt;
+}
+
+.section-menu{
+    display: flex;
+    margin: 5% 10%;
+    flex-direction: row-reverse;
+    background-color: #ffffffd7;
+    border-radius: 20px;
+    box-shadow: 0px 10px 7px #0000004f;
+}
+
+.section-menu img{
+    border-radius: 10px;
+    width:25%;
+    height:25%;
+}
+
+.left{
+    width: 100%;
+    padding:3% 10%;
+}
+
+.btn-section {
+    padding: 2% 5%;
+    border-radius: 10px;
+    background-color: #f5cb43;
+    color:#101531;
+    font-size: 12pt;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin : 1%;
+}
+
+.card-item{
+    padding: 0% 2%;
+    margin: 2%;
+    border-radius: 10px;
+    box-shadow: 0px 10px 7px #0000004f;
+    display: flex;
+    flex: 13%;
+    flex-direction: column;
+    background-color: #ffffffee;
+}
+
+.card-item img{
+    border-radius: 20px;
+    width: 100%;
+    margin: 1% auto;
+}
+
+.photo{
+    margin:2%;
+    border-radius: 10px;
+    flex: 25%;
+    width: 25%;
+    height: 25%;
+}
+
+.pesan{
+    padding: 2% 10%;
+    margin: 1% auto;
+}
+
+.input, textarea{
+    font-size: 14pt;
+    background-color: #ffffff00;
+    padding: 1% 2%;
+    margin: 1% 5%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #2a2a2a;
+    width: 90%;
+}
+
+.footer{
+    background-color: #2a2a2a;
+    padding: 3%;
+    padding-bottom: 1%;
+    color:#eeeeee;
+    display: flex;
+    flex-direction: row;
+}
+
+.links{
+    margin: 5%;
+    margin-top: 1%;
+}
+
+.footer a{
+    color:#eeeeee;
+    font-family: 'Vesper Libre', serif;
+}
