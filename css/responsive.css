@@ -4,13 +4,7 @@
     }
 
     h1{
-        font-size:3em;
-    }
-    h2, h3, h4{
-        font-size: 2em;
-    }
-    p, .text, a{
-        font-size: 1.6em;
+        font-size:2em;
     }
 
     html,body{
@@ -19,7 +13,7 @@
     }
 
     .welcome{
-        padding: 25% 10%;
+        padding: 30% 10%;
     }
 
     .nav{
@@ -60,7 +54,6 @@
 
     .btn-section{
         padding: 5% 10%;
-        font-size: 20pt;
     }
 
     .card-item, .section-menu{
@@ -83,7 +76,6 @@
     }
 
     .input, textarea{
-        font-size: 20pt;
         width: 100%;
         margin: 5% 1%;
     }
