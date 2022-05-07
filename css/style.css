@@ -59,6 +59,15 @@ h1, h2, h3, h4{
     display: flex;
 }
 
+.nav a{
+    padding: 15%;
+    color:#101531;
+}
+
+.nav a:hover{
+    color: #fdeb5e;
+    background-color: #5c5c5c;
+}
 .navbar{
     width: 95%;
     position: fixed;
@@ -93,10 +102,6 @@ h1, h2, h3, h4{
     flex-direction: row;
 }
 
-.nav a{
-    padding: 15%;
-    color:#101531;
-}
 
 .menu p{
     margin: 0px;
@@ -105,10 +110,6 @@ h1, h2, h3, h4{
     background-color: #fdeb5e;
 }
 
-.nav a:hover{
-    color: #fdeb5e;
-    background-color: #5c5c5c;
-}
 
 .intro{
     z-index: 1;
